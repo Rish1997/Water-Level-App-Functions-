@@ -1,0 +1,2 @@
+These firebase functions are written for the IoT Project which continously checks the level of water in a Tank and would notify user and actuate the motor if the water is below certain level.
+It will also notify the user and actuate the switch to turn off the motor if the water is above certain level. The device used for communicating between sensors node and internet is LoRaWAN, Where the LoRaWAN Gateway is communicating with the node, and This Gateway is working as a router also, sending all the data to LoRaWAN Server which further sends the data to firebase.
